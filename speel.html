@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Hoornbeeck ICT</title>
+    <link rel="shortcut icon" href="faviconHoornbeeckICT.ico" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/Opdracht_Programmeren.styles.css" asp-append-version="true" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-x-hidden">
+    <header class="scroll flex items-center w-screen px-20 mb-5 fixed top-0 backdrop-blur-md z-50">
+        <div>
+            <a href="Index.html"><img src="../img/logo.png" class="w-1/5 p-3" /></a>
+        </div>
+        <div class="flex flex-grow justify-end gap-10">
+            <a href="Index.html">
+                <h1 class="font-bold text-xl">Home</h1>
+            </a>
+            <a href="quiz.html">
+                <h1 class="font-bold text-xl underline underline-offset-4 decoration-2">Quiz</h1>
+            </a>
+            <a href="Contact.html">
+                <h1 class="font-bold text-xl">Contact</h1>
+            </a>
+        </div>
+    </header>
+    <div>
+        <main role="main" class="pb-border-3">
+            <div>
+                <img class="w-screen h-screen object-cover absolute" src="../img/banner.jpg" alt="Banner Background" />
+
+                <div class="absolute left-1/2 top-1/2 mt-30 w-9/12 flex justify-around"
+                    style="transform: translate(-50%, -50%);">
+                    <div class="w-full max-w-xs">
+                        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                            <h1 class="text-lg mb-5">Wat is HTML?</h1>
+
+                            <div>
+                                <input type="radio" id="html" name="fav_language" value="HTML">
+                                <label for="html">HTML is een programmeertaal</label><br>
+                                <input type="radio" id="css" name="fav_language" value="CSS">
+                                <label for="css">WC-borstel</label><br>
+                                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                                <label for="javascript">Tuinpad</label>
+                            </div>
+
+                            <div class="w-full">
+                                <button
+                                    class="button-home text-xl text-white font-bold p-1 px-5 rounded-xl text-end">Volgende</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>
