@@ -1,3 +1,11 @@
+<script>
+    window.setTimeout(clickit, 500);
+
+    function clickit() {
+        document.getElementById("fmp-button").click();
+    }
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +19,7 @@
 </head>
 
 <body class="overflow-x-hidden">
+    <a href="Index.html" id="fmp-button"></a>
     <header
         class="scroll flex items-center w-screen px-5 md:px-20 mb-5 fixed top-0 backdrop-blur-md z-40 rounded-b-3xl">
         <div>
@@ -20,9 +29,9 @@
             <a class="hidden sm:block" href="Index.html">
                 <h1 class="font-bold text-xl">Home</h1>
             </a>
-            <a class="hidden sm:block" href="quiz.html">
+            <!-- <a class="hidden sm:block" href="quiz.html">
                 <h1 class="font-bold text-xl underline underline-offset-4 decoration-2">Quiz</h1>
-            </a>
+            </a> -->
             <a class="hidden sm:block" href="Contact.php">
                 <h1 class="font-bold text-xl">Contact</h1>
             </a>
@@ -36,9 +45,9 @@
         <a class="hidden sm:block" href="Index.html">
             <h1 class="font-bold text-xl">Home</h1>
         </a>
-        <a class="hidden sm:block" href="quiz.html">
+        <!-- <a class="hidden sm:block" href="quiz.html">
             <h1 class="font-bold text-xl underline underline-offset-4 decoration-2">Quiz</h1>
-        </a>
+        </a> -->
         <a class="hidden sm:block" href="Contact.php">
             <h1 class="font-bold text-xl">Contact</h1>
         </a>

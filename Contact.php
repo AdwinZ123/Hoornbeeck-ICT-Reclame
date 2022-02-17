@@ -61,9 +61,9 @@ if (isset($_POST["Mail"])) {
             <a class="hidden sm:block" href="Index.html">
                 <h1 class="font-bold text-xl">Home</h1>
             </a>
-            <a class="hidden sm:block" href="quiz.html">
+            <!-- <a class="hidden sm:block" href="quiz.html">
                 <h1 class="font-bold text-xl">Quiz</h1>
-            </a>
+            </a> -->
             <a class="hidden sm:block" href="Contact.php">
                 <h1 class="font-bold text-xl underline underline-offset-4 decoration-2">Contact</h1>
             </a>
@@ -77,9 +77,9 @@ if (isset($_POST["Mail"])) {
         <a class="hidden sm:block" href="Index.html">
             <h1 class="font-bold text-xl">Home</h1>
         </a>
-        <a class="hidden sm:block" href="quiz.html">
+        <!-- <a class="hidden sm:block" href="quiz.html">
             <h1 class="font-bold text-xl">Quiz</h1>
-        </a>
+        </a> -->
         <a class="hidden sm:block" href="Contact.php">
             <h1 class="font-bold text-xl underline underline-offset-4 decoration-2">Contact</h1>
         </a>
